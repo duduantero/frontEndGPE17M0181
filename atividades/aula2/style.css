@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+:root {
+    --color1: #000000;
+    --color2: #DBDBDB;
+    --color3: #9EB8E1;
+    --color4: #14305C;
+    --color5: #A8A8A8;
+    --font2:'Clicker Script', cursive;
+
+}
+
+body{
+    background-color: var(--color2);
+}
+header {
+    background-color: #14305cab;
+    width: auto;
+    height: auto;
+}
+
+header > h1{
+    font-family: var(--font);
+    color: var(--color2);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+
+footer {
+    background-color: var(--color3);
+    width: auto;
+    height: 100px;
+    text-align: center;
+    
+}
+footer > div {
+    font: 'Clicker Script', cursive;
+    color: var(--color2);
+}
+
+
